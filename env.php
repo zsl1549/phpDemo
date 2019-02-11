@@ -111,9 +111,13 @@
 </main>
 <?php
  header("Content-type: text/html; charset=utf-8");//设置编码
-foreach ($_ENV as $key => $value) {
-  echo "{$key}: {$value}<br/>";
-}
+    
+echo getenv('MYSQL_USER')
+echo getenv('MYSQL_HOST')
+echo getenv('MYSQL_PORT')
+echo getenv('MYSQL_PASSWORD')
+echo getenv('MYSQL_DATABASE')
+    
 $MYSQL_USER=getenv('MYSQL_USER');
   if($MYSQL_USER){
 $MYSQL_HOST = getenv('MYSQL_HOST');
