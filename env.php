@@ -111,10 +111,10 @@
 </main>
 <?php
  header("Content-type: text/html; charset=utf-8");//设置编码
-
-
+foreach ($_ENV as $key => $value) {
+  echo "{$key}: {$value}<br/>";
+}
 $MYSQL_USER=getenv('MYSQL_USER');
-
   if($MYSQL_USER){
 $MYSQL_HOST = getenv('MYSQL_HOST');
 $MYSQL_PORT = getenv('MYSQL_PORT');
