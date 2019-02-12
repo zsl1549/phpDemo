@@ -84,13 +84,6 @@
                 >MySQL示例</a
               >
             </li>
-            <li>
-              <a
-                href="api.php"
-                target="_blank"
-                >API示例</a
-              >
-            </li>
           </ul>
         </nav>
         <nav id="top-nav-extra">
