@@ -45,16 +45,10 @@
     </div>
     <nav id="top-nav-main">
       <ul>
-
-
     <li><a href="https://github.com/goodrain/rainbond" target="_blank" >Github</a></li>
-
     <li><a href="https://www.rainbond.com/docs/stable/user-manual/app-creation/language-support/html.html" target="_blank">Docs</a></li>
-
     <li><a href="env.php" target="_blank">MySQL示例</a></li>
-    <li><a href="api.php" target="_blank">API示例</a></li>
-
-
+        
       </ul>
     </nav>
     <nav id="top-nav-extra">
