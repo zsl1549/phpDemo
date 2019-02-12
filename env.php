@@ -109,17 +109,12 @@
     
 $MYSQL_USER=getenv('MYSQL_USER');
     
-    echo $MYSQL_USER;
   if($MYSQL_USER){
 $MYSQL_HOST = getenv('MYSQL_HOST');
-      echo $MYSQL_HOST;
 $MYSQL_PORT = getenv('MYSQL_PORT');
-      echo $MYSQL_PORT;
 $MYSQL_USER=getenv('MYSQL_USER');
 $MYSQL_PASSWORD = getenv('MYSQL_PASSWORD');
-      echo $MYSQL_PASSWORD;
 $MYSQL_DATABASE = getenv('MYSQL_DATABASE');
-      echo $MYSQL_DATABASE;
 
 // 创建连接
 // $con = new mysqli($MYSQL_HOST:$MYSQL_PORT,$MYSQL_USER,$MYSQL_PASSWORD,$MYSQL_DATABASE) or die("数据库连接失败");
